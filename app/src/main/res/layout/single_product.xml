@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/background_design"
+    android:id="@+id/productCard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/image" />
+
+        <TextView
+            android:id="@+id/mrp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/image"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="5dp"
+            android:text="MRP" />
+
+        <TextView
+            android:id="@+id/sell_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/mrp"
+            android:layout_below="@+id/mrp"
+            android:layout_marginTop="5dp"
+            android:text="selling price"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/image"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/stock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/product_name"
+            android:layout_below="@+id/product_name"
+
+            android:text="Available" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/description"
+            android:layout_alignStart="@+id/stock"
+            android:text="Description :"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/mrp"
+            android:layout_alignStart="@+id/textView9"
+            android:layout_marginTop="0dp"
+            android:text="Description" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+

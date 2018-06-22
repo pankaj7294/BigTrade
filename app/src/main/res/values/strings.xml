@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="register_here">create account</string>
+    <string name="logout">logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="add_product">+ Add Product</string>
+    <string name="company_name">BigTrade Pvt. Ltd.</string>
+    <string name="description">Wholesale Trading of Goods on your fingertips.</string>
+    <string name="address">Address: Nasscom Warehouse, Lower Ground Floor, DD3,, Diamond District, Domlur, Bengaluru, Karnataka 560008</string>
+    <string name="id">ID</string>
+    <string name="name1">NAME</string>
+    <string name="save">Save</string>
+    <string name="description1">Description</string>
+    <string name="todo">TODO</string>
+    <string name="quantity">quantity</string>
+    <string name="selling_price">selling price</string>
+    <string name="mrp">MRP</string>
+</resources>
